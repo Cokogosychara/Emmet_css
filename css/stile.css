@@ -1,19 +1,21 @@
 
-.mein_heading
+.mein-heading
 {
     text-align: center;
     background-color: rgb(120, 39, 233);
     color: azure;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
 }
 .title
 {
     text-align: center;
     font-size: 23px;
     color:rgb(120, 39, 233) ;
+    text-transform: uppercase;
 }
-p
+.paragraph
  { 
     text-align: center;
     font-size: 17px;
