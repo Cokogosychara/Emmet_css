@@ -2,46 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Emmet</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="./css/stile.css">
 </head>
 <body>
-    <!-- h1.mein_heading{Page Title}+(nav>ol>li*4>a[href="#art$"]{article$})+section>(h2.mein_heading{Section Title}+artikle.article*4>h3#art$.title{ARTICLE TITLE $}+p*3>lorem40) -->
+    <!-- h1.mein_heading{Page Title}+(nav.links>ol>li*4>a[href="#art$"].link${article$})+section.block_of_articles>(h2.mein_heading{Section Title}+section.article*4>h3#art$.title{ARTICLE TITLE $}+p*3>lorem40) -->
     <h1 class="mein_heading">Page Title</h1>
-    <nav>
+    <nav class="links">
         <ol>
-            <li><a href="#art1">article1</a></li>
-            <li><a href="#art2">article2</a></li>
-            <li><a href="#art3">article3</a></li>
-            <li><a href="#art4">article4</a></li>
+            <li><a href="#art1" class="link1">article1</a></li>
+            <li><a href="#art2" class="link2">article2</a></li>
+            <li><a href="#art3" class="link3">article3</a></li>
+            <li><a href="#art4" class="link4">article4</a></li>
         </ol>
     </nav>
-    <section>
+    <section class="block_of_articles">
         <h2 class="mein_heading">Section Title</h2>
-        <artikle class="article">
+        <section class="article">
             <h3 id="art1" class="title">ARTICLE TITLE 1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis sunt rem ipsam velit laudantium ullam atque neque, itaque ipsa nam asperiores nihil odio cumque vero hic laboriosam blanditiis qui eveniet. Magnam illo laudantium itaque aperiam nesciunt laborum, numquam consequatur quia!</p>
-            <p>Quidem soluta ut quibusdam tempora minus, repellendus corrupti illum saepe similique, perspiciatis quae doloribus magnam commodi. Necessitatibus quaerat delectus, in voluptate obcaecati, fugit distinctio porro debitis a rerum architecto? Minus labore quas numquam possimus quia incidunt, modi tempora similique maiores?</p>
-            <p>Nisi voluptatum repellendus perspiciatis tempora, quam odio eaque sit quaerat impedit suscipit dolore, enim quidem animi reiciendis quos repellat iure recusandae facere iste quibusdam repudiandae, eius dolorum exercitationem! Cum similique cumque inventore sed tenetur a nulla, dolores qui enim in.</p>
-        </artikle>
-        <artikle class="article">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatem molestiae soluta aut dicta saepe, vero dolores, veniam quibusdam atque vitae veritatis rerum dolore! Dolorem eveniet inventore quo in tempora maxime eum doloribus possimus ea quia, omnis unde cupiditate saepe.</p>
+            <p>Velit, maxime minima voluptatum asperiores nulla voluptatibus perspiciatis obcaecati dolorum optio totam, id ducimus necessitatibus. Est quibusdam, ea hic eligendi libero totam dolor veritatis dolores ipsa facilis ipsam labore provident accusamus eius, veniam, dolore minus voluptas? Nihil mollitia nisi labore!</p>
+            <p>Provident ullam est rerum quos? Officiis, quos. Corporis nobis sunt necessitatibus impedit consequatur dolorum rem ea suscipit facilis nisi velit autem ipsa omnis error rerum maxime, fuga amet earum atque fugiat reprehenderit! Asperiores pariatur itaque deleniti optio laborum iure animi!</p>
+        </section>
+        <section class="article">
             <h3 id="art2" class="title">ARTICLE TITLE 2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quos perferendis sapiente ipsum enim, quisquam sunt, unde amet fugiat laboriosam expedita nisi voluptatibus laborum id natus iusto debitis animi. Est neque at rerum suscipit nihil eligendi minus repellendus tempora quis.</p>
-            <p>Sed excepturi quo sapiente, odit amet maiores nisi libero optio alias temporibus molestiae fugiat consequatur a similique id deserunt, explicabo pariatur provident! Atque, assumenda facere? Id minus ex, itaque eos voluptates quisquam non repellendus commodi temporibus optio laborum voluptatum adipisci.</p>
-            <p>Harum officiis, rem omnis eligendi placeat velit aut. Corrupti incidunt, eaque id aperiam vero, praesentium, autem harum illo dignissimos cum rerum modi exercitationem esse quis nesciunt unde? Dolorum adipisci tempora, quis sequi officiis, odio doloremque numquam quam, commodi corrupti accusamus?</p>
-        </artikle>
-        <artikle class="article">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, dolorum ipsa dolorem tenetur laboriosam doloribus accusantium, repellendus blanditiis ab suscipit exercitationem distinctio nostrum vel autem aspernatur quaerat enim. Aliquid, magnam quo consequatur inventore quam iure nemo nisi tempora facilis doloremque?</p>
+            <p>Vel sequi repudiandae asperiores. Laborum mollitia quam sunt delectus totam, quo dignissimos assumenda esse accusantium error non necessitatibus iure asperiores rem voluptas maiores eum sapiente! Quidem dolorum dolore quis adipisci, itaque officiis quos animi hic quo accusamus, eaque, eius necessitatibus.</p>
+            <p>Magnam impedit aliquid ipsa et autem facere? Tempora nobis sunt aliquam officia quia nesciunt blanditiis, voluptas error animi ad modi temporibus quibusdam fugit. Molestiae hic praesentium magni eum eveniet placeat distinctio adipisci nihil recusandae voluptas, ducimus, ullam nam eaque nemo!</p>
+        </section>
+        <section class="article">
             <h3 id="art3" class="title">ARTICLE TITLE 3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facere sint consequuntur, a hic possimus, non dicta magnam eaque reprehenderit, modi saepe voluptates mollitia beatae aliquid! Atque nam, necessitatibus fuga doloremque temporibus quod provident. Ut soluta iste delectus harum libero?</p>
-            <p>Est nesciunt accusamus ipsum earum cumque deserunt temporibus aliquid minima quia quidem, dolorum reprehenderit quod ut assumenda in amet itaque accusantium! Similique voluptatibus recusandae temporibus dolorum ipsum. Iste quod architecto deleniti dignissimos facere, nisi officia, repellendus consectetur nesciunt quisquam in?</p>
-            <p>Quasi fuga ipsum optio sapiente nihil, delectus commodi, voluptatum quas mollitia soluta sequi nobis saepe doloremque tempore modi dolore officia aliquam ad pariatur? Quis voluptatum iste debitis. Illum aliquid rem nam ipsum ex quod numquam reprehenderit saepe! Ipsum, pariatur temporibus.</p>
-        </artikle>
-        <artikle class="article">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus similique tempora voluptatibus, porro ipsam assumenda sed asperiores inventore optio ratione odio sint iusto, ut iure tempore? Autem delectus officia, beatae, sequi sapiente quasi voluptatibus dolores inventore illo ad incidunt.</p>
+            <p>Reiciendis expedita ea et! Sapiente minus debitis eveniet hic perferendis atque neque expedita consectetur labore odio soluta dolor rem illum beatae cumque vero, aut recusandae ea repellendus. Consequuntur error porro eum tenetur quaerat! Doloremque nam, omnis facere qui aut in.</p>
+            <p>Quas ducimus beatae iusto iure esse animi consequatur. Excepturi impedit autem earum et dolore, pariatur voluptatem quasi, reprehenderit officia recusandae, cupiditate quis magni at! Aliquid veritatis perferendis odit iusto pariatur error debitis, quaerat, explicabo dolore vitae fugit, minima ducimus aspernatur.</p>
+        </section>
+        <section class="article">
             <h3 id="art4" class="title">ARTICLE TITLE 4</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum dolore vero ut repudiandae rem esse atque. Tenetur, nobis error libero voluptas, ratione natus facilis delectus suscipit omnis necessitatibus a nemo eligendi. Laborum ullam voluptatum similique obcaecati inventore error eos. Possimus.</p>
-            <p>Rem unde, non id, molestias obcaecati reprehenderit voluptatibus nihil excepturi quidem modi fugiat architecto, corrupti cupiditate. Doloribus illo a tempora officiis perspiciatis eius velit, illum in cum accusantium ipsum vel ea enim est neque exercitationem veritatis harum excepturi? A, id.</p>
-            <p>Dolorem repellat numquam, officiis aliquid ipsa distinctio suscipit minus id voluptatem vitae explicabo commodi provident temporibus officia cupiditate voluptate ab obcaecati magni vel laudantium aperiam molestias recusandae ad? Minus molestias praesentium consequatur voluptates necessitatibus atque cum ullam eius quas enim.</p>
-        </artikle>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, enim nihil veritatis facere vitae adipisci porro odio, illum eaque modi quam sequi optio, culpa aut consectetur ea nobis error ipsum et ad maiores fugit expedita cumque! Aliquam laudantium provident qui.</p>
+            <p>Magnam porro veritatis enim provident esse commodi reiciendis consequuntur asperiores fugit numquam aspernatur saepe dolorem, molestias corrupti velit! Impedit neque quos cumque ut, earum provident quam modi odio commodi praesentium. Reprehenderit, ducimus asperiores quaerat esse eos amet enim eius iure.</p>
+            <p>Est minus similique quia magnam autem possimus impedit! Quam earum natus libero fugiat ipsam, accusamus repudiandae cum voluptatem perspiciatis laboriosam suscipit reiciendis hic itaque sit. Obcaecati est fugiat nam nostrum ab recusandae necessitatibus provident, iure sapiente, magnam harum quae quaerat.</p>
+        </section>
     </section>
+
+    
 </body>
 </html>
